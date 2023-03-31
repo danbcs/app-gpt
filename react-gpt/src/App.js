@@ -44,8 +44,6 @@ const generateOutputText = async (inputText) => {
     },
   });
 
-  console.log(response.data.text);
-
   return response.data.text;
 };
 
