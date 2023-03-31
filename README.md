@@ -18,7 +18,9 @@ Você também pode ver erros no console.
 
 ## Scripts disponíveis - back-end
 
-No diretório do projeto, você pode executar:
+No diretório do projeto, será necessário criar o arquivo `.env` e configurar o `OPENAI_API_KEY=`
+
+Após isso, você pode executar:
 
 `npm start`
 
