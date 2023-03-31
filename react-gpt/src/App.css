@@ -5,9 +5,9 @@
 }
 
 input[type='text'] {
-  width: 60%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 50%;
+  padding: 10px;
+  margin: 8px 10px 8px 0px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
@@ -16,24 +16,26 @@ input[type='text'] {
 button {
   background-color: #4caf50;
   color: white;
-  padding: 12px 20px;
+  padding: 12px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  width: 10%;
 }
 
 button:hover {
   background-color: #45a049;
+  
 }
 
-p {
+.output-text{
   text-align: justify;
   font-size: 24px;
   line-height: 1.5;
   color: #333;
   margin: 20px auto;
-  max-width: 1000px;
+  width: 60%;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

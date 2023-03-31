@@ -12,19 +12,27 @@ function App() {
   };
 
   const handleButtonClick = async () => {
-    console.log(inputText);
     const outputText = await generateOutputText(inputText);
     setOutputText(outputText);
   };
 
+  const handleInputEnter = async (event) => {
+    if(event.key === 'Enter') {
+      const outputText = await generateOutputText(inputText);
+      setOutputText(outputText);
+    }
+  };
+
   return (
     <div className="App">
-      <h1>Gerador de histórias</h1>
+      <h1>O Gênio</h1>
       <div>
-        <input type="text" value={inputText} onChange={handleInputChange} />
+        <input type="text" value={inputText} onChange={handleInputChange} placeholder="Peça ou pergunte o que desejar" onKeyUp={handleInputEnter}/>
         <button onClick={handleButtonClick}>Enviar</button>
       </div>
-      {outputText && <p>{outputText}</p>}
+      <div className='output-text'>
+     {outputText.split('\n').map(str =>  <p key={str.length}>{str} </p>)}
+      </div>
     </div>
   );
 }
