@@ -1,7 +1,7 @@
 # Iniciando os estudos com ChatGPT
 
-Starting studies on ChatGPT and the range of opportunities we have when using this tool is surprising, 
-it has everything to revolutionize not only the service areas, but programming as a whole.um todo.
+Começar os estudos sobre o ChatGPT e o leque de oportunidades que temos ao utilizar essa ferramenta é surpreendente, 
+ela tem tudo para revolucionar não só as áreas de atendimento, mas a programação como um todo.
 
 ## Scripts disponíveis - front-end
 
